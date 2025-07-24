@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+.green-box {
+    background-color: aquamarine;
+    border: 5px solid green;
+    height: 100vh;
+    width: 700px;
+}
+.blue-section{
+    display: flex;
+    border: 2px solid blue;
+    padding: 10px;
+    background-color: rgb(7, 142, 205);
+    margin: 20px;
+}
+.light-orange-box {
+    background-color: rgb(209, 178, 54);
+    border: 5px solid  rgb(246, 194, 9);
+    width: 200px;
+    height: 100px;
+    margin: 8px;
+}
+.orange-mini-section{
+    background-color: rgb(209, 178, 54);
+    border: 5px solid  rgb(246, 194, 9);
+    width: 200px;
+    height: 100px;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red-box-small {
+    background-color: red;
+    border: 5px solid rgb(69, 24, 24);
+    width: 70px;
+    height: 50px;
+    
+}
+.middle-part{
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+}
+.large-red-box {
+    background-color: rgb(188, 36, 36);
+    border: 5px solid red;
+    width: 400px;
+    height: 220px;
+}
+.stacked-red-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.red-box-medium{
+    background-color: rgb(188, 36, 36);
+    border: 5px solid red;
+    width: 300px;
+    height: 100px;
+}
+.bottom-section {
+    display: flex;
+    border: 2px solid blue;
+    padding: 10px;
+    background-color: rgb(7, 142, 205);
+    margin: 20px;
+    gap: 10px;
+}
+.light-purple-box {
+    background-color: rgb(203, 73, 215);
+    border: 5px solid rgb(255, 4, 159);
+    width: 200px;
+    height: 100px;
+
+}
+.light-orange-small {
+    background-color: rgb(209, 178, 54);
+    border: 5px solid  rgb(246, 194, 9);
+    width: 100px;
+    height: 100px;
+}

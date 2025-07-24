@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.min {
+    display: flex;
+    width: 300px;
+    background-color: blue;
+    border:5px solid grey ;
+    width: 500px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+.one {
+    background-color: pink;
+    border: 5px solid brown;
+    height: 60px;
+    width: 100px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two{
+    background-color: aqua;
+    border: 5px solid blue;
+    height: 30px;
+    width: 45px;
+
+}
+    
